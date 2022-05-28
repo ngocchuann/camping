@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #faf4f2;
+}
+.clerar {
+    clear: both;
+}
+.header {
+    background-color: #f8e1db;
+}
+.header img {
+    margin-left: 70px;
+}
+.header__list ul {
+    list-style: none;
+    margin: 10px 15px 0px;
+    
+}
+.header__list li {
+    display: inline;
+    
+}
+.header__list a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.banner {
+    background-image:url(../img/BG.png);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+
+}
+.activities {
+    background-color: #faf4f2;
+}
+.activities__title {
+    text-align: center;
+}
+.activities__title h2{
+    color: #8d8d8d;
+    font-size: 24px;
+}
+.activities__item {
+    float: left;
+    width: 25%;
+    padding: 15px 10px;
+    text-align: center;
+  
+} 
+.activities__card {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.activities__card img {
+    width: 100%;
+    border-radius: 20px;
+} 
+.activities__img {
+    position: relative;
+}
+.activities__icon i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #e76f51;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: rgba(219, 210, 210, 0.5);
+    border-radius: 10px;
+}
+.activities__detail p {
+    margin-top:20px ;
+    color: #a8a8a8;
+}
+.activities__detail button {
+    color: #a09d9d;
+   background-color:rgb(141, 141, 141, 0.2);
+    padding: 13px 54px;
+    border-radius: 30px;
+    margin-top:20px ;
+    border: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}  
+.activities__detail button:hover{
+    background-color: #e76f51;
+    border-color: #e76f51;
+}
+.activities__ViewAll {
+    text-align: center;
+}
+.activities__ViewAll button{
+    color: #ea8c74;
+    border-radius: 25px;
+    margin: 30px ;
+    padding: 13px 71px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border:1px solid #ea8c74;
+}
+.activities__ViewAll button:hover{
+    background-color: #51e7dd;
+    border-color: #51e7dd;
+}
+.contact{
+    background-color:#e76f513d;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    height: 350px;
+    
+}
+.contact__img__left, .contact__right {
+    width: 50%;
+    float: left;
+}
+.contact__img__left{
+    background-image: url(/img/mask.png);
+    background-position:center ;
+    background-size:cover;
+}
+.contact__right {
+    color: #939191;
+}
+.contact__right h2 {
+    margin: 50px 0px 5px;
+}
+.contact__right p {
+    margin-bottom:20px ;
+}
+.contact__right__App h3{
+    margin-bottom: 20px;
+    
+}
+.contact__right__Fl h3 {
+    margin-bottom: 20px;
+
+}
+.contact__right__App, .contact__right__Fl {
+    float: left;
+    width: 50%;
+   
+}
+.contact__right_icon {
+    font-size: 25px;
+    color: #e76f51;
+    margin-right: 10px;
+}
+.footer {
+    background-color:#e76f513d;
+    border-radius: 20px;
+    height: 350px;
+}
+.footer__left, .footer__right {
+    float: left;
+    width: 50%;
+}
+.footer__left {
+    color: #3a3735;
+}
+.footer__left h4{
+    margin: 50px 50px 20px;
+}
+.footer__left p {
+    margin: 50px 50px ;
+    font-size: 18px;
+}
+.footer__About h4{
+    margin: 50px 0px 20px;
+}
+.footer__list ul {
+    list-style: none;
+     margin-top:25px;
+}
+.footer__list li {
+    margin: 0px 20px 20px 0px;
+}
+.footer__list a{
+    text-decoration: none;
+    color: #433f3d;
+    font-size: 18px;
+}.footer__About {
+    width: 33.33%;
+    float: left;
+}
+.footer__end {
+    text-align: center;
+    margin: 40px;
+}
